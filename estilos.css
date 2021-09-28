@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+
+body{
+    background-color: bisque;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;  
+}
+
+a{
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+main{
+    border: solid 5px black;
+    height: 450px;
+}
+
+div{
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+div:first-child{
+    background-color: brown;
+}
+
+div:last-child{
+    background-color: blueviolet;
+}
+
+.primerEjercicio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+}
+
+.segundoEjercicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tercerEjercicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+}
